@@ -1,0 +1,211 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 19.6rem auto 18.8rem;
+  gap:19.2rem;
+}
+
+span {
+  display: inline-block;
+  height: 0;
+  font-weight: 500;
+  font-size: 12.7rem;
+  line-height: 14.8rem;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #323238;
+}
+
+.hide {
+  display: none;
+}
+
+.controls {
+  display: flex;
+  flex-direction: row;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.controls button {
+  border: none;
+  margin-top: 4.8rem;
+  cursor: pointer;
+}
+
+.controls button:hover svg path {
+  fill: #0c029d;
+}
+
+.sounds {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 3.2rem;
+  position: relative;
+}
+
+.sounds button {
+  border: none;
+  padding: 4.8rem;
+  border-radius: 2.4rem;
+  cursor: pointer;
+}
+
+.sounds button:hover.forest {
+  background-color: #0c5324fa;
+}
+
+.sounds button:hover.rain{
+  background-color: #02799D;
+}
+
+.sounds button:hover.coffee-shop{
+  background-color: #6e3303f8;
+}
+
+.sounds button:hover.fireplace{
+  background-color: #ff2701;
+}
+
+.sounds button:hover svg path {
+  fill: white
+}
+
+.forest-bg-audio {
+  background-color: #0c5324fa !important;
+}
+
+.rain-bg-audio {
+  background-color: #02799D !important;
+}
+
+.coffee-shop-bg-audio {
+  background-color: #6e3303f8 !important;
+}
+
+.fireplace-bg-audio {
+  background-color: #ff2701 !important;
+}
+
+/* LIGHT-MODE FEATURES */
+
+.light-button {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+
+  background-color: white;
+  border: none;
+
+  cursor: pointer;
+}
+
+.light-controls-bg {
+  background-color: #FFFFFF;
+}
+
+.light-sounds-bg {
+  background-color: #E1E1E6;
+}
+
+/* DARK-MODE FEATURES */
+
+.dark-button {
+  position: absolute;
+  top: 6rem;
+  right: 6rem;
+
+  background: #121214;
+  border: none;
+
+  cursor: pointer;
+}
+
+.dark-body {
+  background: #121214
+}
+
+.dark-span {
+  color: #FFFFFF 
+}
+
+.dark-controls {
+  fill: #C4C4CC 
+}
+
+.dark-controls-bg {
+  background: #121214;
+}
+
+.dark-sounds {
+  fill: white;
+}
+
+.dark-sounds-bg {
+  background-color: #29292E;
+}
+
+#volumeSliderForest {
+  width: 90px;
+  height: 18px;
+
+  position: absolute;
+  bottom:20.8rem;
+  right: 20.8rem;
+  left: 3.4rem;
+ 
+  color: #323238;
+}
+
+#volumeSliderRain {
+  width: 90px;
+  height: 18px;
+
+  position: absolute;
+  bottom:20.8rem;
+  right: 3.4rem;
+  left: 21.8rem;
+
+}
+
+#volumeSliderCoffeeShop {
+  width: 90px;
+  height: 18px;
+
+  position: absolute;
+  top:29.8rem;
+  right: 20.8rem;
+  left: 3.4rem;
+ 
+}
+
+#volumeSliderFireplace {
+  width: 90px;
+  height: 18px;
+
+  position: absolute;
+  top:29.8rem;
+  right: 3.4rem;
+  left: 21.8rem;
+ 
+}
