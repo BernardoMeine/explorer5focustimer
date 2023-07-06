@@ -1,21 +1,21 @@
-# Timer de Pomodoro com Sons de Fundo e Modo Claro/Escuro
-Este projeto consiste em um timer de Pomodoro desenvolvido utilizando HTML, CSS e JavaScript puro, sem a utilização de frameworks. O timer permite a funcionalidade básica de iniciar, pausar e reiniciar o temporizador, além de fornecer opções para aumentar ou diminuir 5 minutos no tempo restante. Além disso, também oferece sons de fundo selecionáveis, incluindo lareira, floresta, cafeteria e chuva. O projeto também possui um recurso para alternar entre o modo claro e escuro.
+# Pomodoro Timer with Background Sounds and Light/Dark Mode
+This project consists of a Pomodoro timer developed using pure HTML, CSS, and JavaScript, without the use of frameworks. The timer allows basic functionality to start, pause, and restart the timer, as well as provide options to increase or decrease the remaining time by 5 minutes. Additionally, it offers selectable background sounds, including fireplace, forest, cafe, and rain. The project also features a toggle switch for switching between light and dark mode.
 
 ![image](https://github.com/BernardoMeine/explorer5focustimer/assets/93941531/c7b09a26-913e-435a-a276-b268bc835a21)
 
 
-## Funcionalidades
-O timer de Pomodoro possui as seguintes funcionalidades:
+## Features 
+The Pomodoro timer has the following features:
 
-- Iniciar, pausar e reiniciar o temporizador.
-- Aumentar ou diminuir 5 minutos no tempo restante.
-- Selecionar entre sons de fundo: lareira, floresta, cafeteria e chuva.
-- Alternar entre o modo claro e escuro.
+- Start, pause, and restart the timer.
+- Increase or decrease the remaining time by 5 minutes.
+- Select background sounds: fireplace, forest, cafe, and rain.
+- Toggle between light and dark mode.
 
-## Requisitos
-Para executar o projeto, você precisará de um navegador moderno que suporte HTML5, CSS3 e JavaScript.
+## Requirements
+To run the project, you will need a modern browser that supports HTML5, CSS3, and JavaScript.
 
-## Como usar
-Clone o repositório ou faça o download dos arquivos em formato ZIP.
-Navegue até a pasta do projeto.
-Abra o arquivo index.html em seu navegador.
+## How to use
+Clone the repository or download the files in ZIP format.
+Navigate to the project folder.
+Open the index.html file in your browser.
